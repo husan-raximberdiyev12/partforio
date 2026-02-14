@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #080808;
+}
+header {
+  background-color: grey;
+  padding: 1px 0;
+  display: flex;
+  gap: 70px;
+}
+.malumot-sct {
+  background-color: white;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.big-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.big-box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.big-box3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.big-box4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Epic-game {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  gap: 33px;
+}
+.box1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+h1 {
+  color: white;
+}
+.rasm {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 25px;
+  /* width: 350px; */
+  /* height: 350px; */
+}
+.malumot-btn {
+  padding-top: 21px;
+  padding-right: 64px;
+  padding-bottom: 21px;
+  padding-left: 64px;
+  gap: 10px;
+  background-color: #3f8e00;
+  border: 1px solid #62ba1b;
+  box-shadow: 0px 8px 30px #3f8e0080;
+  color: white;
+  border-radius: 4px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.oila {
+  color: white;
+  margin: 0;
+  padding-left: 450px;
+}
+img {
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.onam {
+  margin-top: 20px;
+}
+.guruhdoshlarim {
+  padding: 15px;
+  align-items: center;
+}
+h3{
+  color: white;
+}
+p{
+  color: white;
+}
+.malumot{
+  color: #080808;
+}
+.box{
+  width: 300;
+}
+.loyha-h1{
+  padding-left: 450px;
+}
+.frontend-btn{
+  padding: 15px;
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
